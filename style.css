@@ -1,0 +1,694 @@
+/* Universal styles */
+* {
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    background-image: url(media/Img/Chartbg.png);
+    background-size: 400px auto;
+    border: 2px solid #cd82ff;
+    color: rgb(48, 35, 240);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+#button:hover {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    background-image: url(media/Img/Grøn.png);
+    background-size: 400px auto;
+    border: 2px solid #8b21d1;
+    color: rgb(48, 35, 240);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+/* header */
+
+/* header video banner */
+
+.test {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_video {
+    z-index: 0;
+    width: 100vw;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 700;
+    color: white;
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner-icon {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+    margin-bottom: 200px;
+
+}
+
+/* Navigation */
+
+ /* The dropdown container */
+ .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    margin-top: 15px;
+    font-size: 1rem; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: white;
+    font-family: Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: violet;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 100px;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(243, 182, 240);
+    border-radius: 8px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.navigation {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+	width:100%;
+	overflow: hidden;
+	height: 5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo {
+    align-self: center;
+    width: auto;
+    height: 4.5rem;
+    margin: 3rem;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    align-self: center;
+}
+¨
+.nav_items, li {
+    color: black;
+    display: inline;
+    align-self: center;
+}
+
+.nav_list {
+    margin: 1rem;
+    padding: 4px 6px;
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_list:hover {
+    color: #e177ff;
+    margin: 1rem;
+    padding: 4px 6px;
+    border: 2px solid #e177ff;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Banner */
+
+.banner {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner h1{
+    margin-bottom: 20px;
+}
+
+.banner p{
+    font-weight: 500;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 1rem;
+}
+
+.logo_video {
+    order: 2;
+    width: auto;
+    height: 300px;
+}
+
+.charts_section{
+    width: 550px;
+    order: 1;
+}
+
+.lyrics_section{
+    width: 550px;
+    order: 3;
+}
+
+.front_page_icons{
+    margin-top: 20px;
+    width: auto;
+    height: 70px;
+}
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    bottom: 0px;
+}
+
+.white_logo {
+    width: auto;
+    height: 60px;
+}
+
+footer div {
+    width: 100px;
+    height: 100px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px;
+}
+
+table, th, td {
+        border:1px solid black;
+}
+
+
+/* Chart Selection */
+.charts_body {
+    background-color: rgb(245, 232, 250);
+}
+
+.chart_flex_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart_container {
+    display: flex;
+    width: 45rem;
+    height: 15rem;
+    margin: 20px 200px;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(media/Img/Chartbg.png);
+}
+
+.chart_container h1 {
+ align-self: center;
+ font-family: Calibri, 'Trebuchet MS', sans-serif;
+ color: #ffd92e;
+ font-size: 4rem;
+}
+
+.chart_flex_container a {
+    text-decoration: none;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: black;
+   }
+
+.chart_flex_container a:visited {
+    text-decoration: none;
+    color: black;
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+
+.chart_container:hover {
+    width: 45rem;
+    height: 15rem;
+    background-color: rgb(107, 1, 1);
+    margin: 20px 200px;
+    cursor: pointer;
+    background-image: url(media/Img/Grøn.png);
+}
+
+/* Bedste  Chart */
+
+.best_charts_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.chart_title {
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.chart_row {
+    min-width: 600px;
+    margin: 0 600px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    border: 1px solid rgb(181, 147, 194);
+    flex: 1;
+}
+
+.placement {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px 40px;
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+
+.placement-icons-green {
+    color: greenyellow;
+    justify-self: flex-end;
+}
+
+.placement-icons-red {
+    color: red;
+    justify-self: flex-end;
+}
+
+.placement-icons-yellow {
+    color: rgb(255, 187, 0);
+    justify-self: flex-end;
+}
+
+.song_artist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.song_title {
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.artist {
+    font-family: Raleway, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.artist_link {
+    text-decoration: none;
+}
+
+.artist_link:visited {
+    text-decoration: blue;
+}
+
+
+.album_cover {
+    width: auto;
+    height: 100px;
+}
+
+/* Lyrics page */
+
+.lyrics_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.lyrics_container h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.lyric_info {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(media/Img/Chartbg.png);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1rem;
+    order: 1;
+}
+
+.lyrics {
+    order: 2;
+}
+
+.share_section {
+    margin: 10%;
+}
+
+.social_icon {
+    width: auto;
+    height: 50px;
+    margin: 10%;
+}
+
+.lyric_cover {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+    align-self: center;
+}
+
+.lyric_analysis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 33%;
+    height: auto;
+    background-image: url(media/Img/Grøn.png);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 2rem;
+    order: 3;
+}
+
+.lyric_analysis_icon {
+    font-size: 1rem;
+    margin-bottom: 63px;
+}
+
+.lyric_ana_text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.lyric_analysis h3 {
+    margin-bottom: 2rem;
+}
+
+
+/* Lyric search page */
+
+.search_banner {
+    width: 100vw;
+    height: auto;
+}
+
+.search_body {
+    background-image: url(media/Img/Lyric_search_images/banner.jpeg);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.searchbar {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.search_button {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    background-image: url(media/Img/Chartbg.png);
+    background-size: 400px auto;
+    border: 2px solid #cd82ff;
+    color: rgb(48, 35, 240);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.search_button:hover {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    background-image: url(media/Img/Grøn.png);
+    background-size: 400px auto;
+    border: 2px solid #8b21d1;
+    color: rgb(48, 35, 240);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.search_button {
+    width: 100px;
+    height: 45px;
+    background-color: violet;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  /* Artist Page */
+
+.artist_banner {
+    background-image: url(media/Img/Chartbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.profile_container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_container img {
+    width: 400px;
+    height: 400px;
+}
+
+.span {
+    width: 100%;
+    height: 120px;
+}
+
+.artist_section {
+    display: flex;
+    justify-content: space-around;
+    font-family: Raleway;
+}
+
+.artist_section h4 {
+    font-size: 2rem;
+    }
+
+.bio {
+    width: 40%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    font-size: 1rem;
+}
+
+.popular_songs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.concerts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    /* frontpage */
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .flex_container {
+        height: 300px;
+    }
+
+    .overlay {
+        font-size: 5rem;
+    }
+
+    /* lyrics section */
+
+    .lyrics_container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .lyrics {
+        width: 100%;
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .lyric_analysis {
+        order: 2;
+        width: 40%;
+        height: inherit;
+    }
+
+    .lyric_info {
+        order: 3;
+        width: 40%;
+        height: inherit;
+    }
+
+    .lyric_analysis h3 {
+       font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    /* lyrics section */
+
+    .lyrics_container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .lyrics {
+        width: 100%;
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    .lyric_analysis {
+        order: 2;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+    }
+
+    .lyric_info {
+        order: 3;
+        width: 100%;
+        height: inherit;
+    }
+
+    .lyric_analysis h3 {
+       font-size: 1rem;
+    }
+
+    .artist_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
