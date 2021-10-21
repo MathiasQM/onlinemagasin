@@ -337,6 +337,11 @@ table, th, td {
     margin: 20px;
 }
 
+.chart_tagline {
+    text-align: center;
+    margin: 20px;
+}
+
 .chart_row {
     min-width: 600px;
     margin: 0 600px;
@@ -497,13 +502,24 @@ table, th, td {
     overflow: hidden;
 }
 
+.search_tagline{
+    justify-self: center;
+    text-align: center;
+    color: white;
+    font-family: Raleway;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
 .searchbar {
-    margin-top: 20%;
+    margin: 20%;
     display: flex;
     justify-content: center;
+    align-self: center;
+    flex-direction: column;
 }
 
 .search_button {
+    align-self: center;
     width: 100px;
     height: 50px;
     margin-bottom: 10px;
@@ -529,19 +545,15 @@ table, th, td {
     font-weight: 900;
 }
 
-.search_button {
-    width: 100px;
-    height: 45px;
-    background-color: violet;
-}
 
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-    float: left;
-    width: 80%;
+    border-radius: 8px;
+    width: 100%;
     background: #f1f1f1;
+    margin-bottom: 10px;
   }
 
   /* Artist Page */
